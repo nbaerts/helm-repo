@@ -1,0 +1,45 @@
+apiVersion: v1
+entries:
+  cluster-issuer:
+  - apiVersion: v2
+    created: "2025-03-29T23:12:33.8374324Z"
+    description: A cluster-issuer for letsencrypt
+    digest: b35d2d0d0a62cf31d3dbb6f7e34526c3d1f6f46fd7ad3a76831caa104cf0efd9
+    maintainers:
+    - name: nbaerts
+    name: cluster-issuer
+    sources:
+    - https://github.com/nbaerts/local-cluster
+    type: application
+    urls:
+    - https://nbaerts.github.io/helm-repo/cluster-issuer-1.0.0.tgz
+    version: 1.0.0
+  hello-world:
+  - apiVersion: v2
+    created: "2025-03-29T23:12:33.8374324Z"
+    description: A web application to test a new cluster
+    digest: 2d88111cceafcaff8f76c8999e10dbc19cce88071e49783acb63f7361b91da5a
+    maintainers:
+    - name: nbaerts
+    name: hello-world
+    sources:
+    - https://github.com/nbaerts/local-cluster
+    type: application
+    urls:
+    - https://nbaerts.github.io/helm-repo/hello-world-1.0.0.tgz
+    version: 1.0.0
+  nginx-controler:
+  - apiVersion: v2
+    created: "2025-03-29T23:12:33.8379465Z"
+    description: A nginx-controler for host network (based on https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.1.3/deploy/static/provider/baremetal/deploy.yaml)
+    digest: 00cfeb8ae680fff1af94a45d6dad7c627c459d922427a9e0e570422bb503d982
+    maintainers:
+    - name: nbaerts
+    name: nginx-controler
+    sources:
+    - https://github.com/nbaerts/local-cluster
+    type: application
+    urls:
+    - https://nbaerts.github.io/helm-repo/nginx-controler-1.0.0.tgz
+    version: 1.0.0
+generated: "2025-03-29T23:12:33.8369187Z"
