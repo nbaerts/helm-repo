@@ -11,6 +11,6 @@ helm repo list
 ## How to add a package
 
 ```
-helm package charts/[CHART_NAME]
+helm package ../local-cluster/charts/*
 helm repo index --url https://nbaerts.github.io/helm-repo .
 ```

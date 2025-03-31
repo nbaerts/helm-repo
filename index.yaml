@@ -2,9 +2,9 @@ apiVersion: v1
 entries:
   cluster-issuer:
   - apiVersion: v2
-    created: "2025-03-30T03:50:41.8898314Z"
+    created: "2025-03-31T02:41:08.5422226Z"
     description: A cluster-issuer for letsencrypt
-    digest: b35d2d0d0a62cf31d3dbb6f7e34526c3d1f6f46fd7ad3a76831caa104cf0efd9
+    digest: d1ebef5fe31d89a941aed87adf9a034e29856843969b3037cdb997f127fdde0a
     maintainers:
     - name: nbaerts
     name: cluster-issuer
@@ -16,9 +16,9 @@ entries:
     version: 1.0.0
   hello-world:
   - apiVersion: v2
-    created: "2025-03-30T03:50:41.8904887Z"
+    created: "2025-03-31T02:41:08.5428923Z"
     description: A web application to test a new cluster
-    digest: 9b2344b2cde886b72d3baf06a78e2a087206f5a698729281122de098022061d1
+    digest: f05c987f90ae99628c2a00a57ca821dc58ed5089008a2eec232eb9137057b7a2
     maintainers:
     - name: nbaerts
     name: hello-world
@@ -30,9 +30,9 @@ entries:
     version: 1.0.0
   jellyfin:
   - apiVersion: v2
-    created: "2025-03-30T03:50:41.8918223Z"
+    created: "2025-03-31T02:41:08.5435305Z"
     description: Jellyfin media server
-    digest: 776994cc8d1812de8009fc5533546f6ec11f1b24c077b14b69ab3e4b4c48eebf
+    digest: e9843f2d1085c89f4a6ebdc53d9830d7b19e937d82dcc7031a814a08a3f6395c
     maintainers:
     - name: nbaerts
     name: jellyfin
@@ -42,11 +42,25 @@ entries:
     urls:
     - https://nbaerts.github.io/helm-repo/jellyfin-1.0.0.tgz
     version: 1.0.0
+  jellyseerr:
+  - apiVersion: v2
+    created: "2025-03-31T02:41:08.544171Z"
+    description: Integrate the *arr stack in Jellyfin
+    digest: f148b2ca459a642d16cdf1d46d780b5c68357ce2ed36ade93c0092350cf06ac9
+    maintainers:
+    - name: nbaerts
+    name: jellyseerr
+    sources:
+    - https://github.com/nbaerts/local-cluster
+    type: application
+    urls:
+    - https://nbaerts.github.io/helm-repo/jellyseerr-1.0.0.tgz
+    version: 1.0.0
   nginx-controler:
   - apiVersion: v2
-    created: "2025-03-30T03:50:41.8924802Z"
+    created: "2025-03-31T02:41:08.5448301Z"
     description: A nginx-controler for host network (based on https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.1.3/deploy/static/provider/baremetal/deploy.yaml)
-    digest: 93cd173aa7133209610b0dea468954b39f7e90c5e76e0e484d5cb7a6e0ceddce
+    digest: 523f5094348f098cf15b90d807157f0c8ec5cc4bbe823f8dfe210d97e2142f8b
     maintainers:
     - name: nbaerts
     name: nginx-controler
@@ -56,4 +70,46 @@ entries:
     urls:
     - https://nbaerts.github.io/helm-repo/nginx-controler-1.0.0.tgz
     version: 1.0.0
-generated: "2025-03-30T03:50:41.8885313Z"
+  prowlarr:
+  - apiVersion: v2
+    created: "2025-03-31T02:41:08.5454845Z"
+    description: Indexer for the *arr stack
+    digest: 9d904eada967be56d448191b2ade63fa086665a8c74972676473b6e084136e0f
+    maintainers:
+    - name: nbaerts
+    name: prowlarr
+    sources:
+    - https://github.com/nbaerts/local-cluster
+    type: application
+    urls:
+    - https://nbaerts.github.io/helm-repo/prowlarr-1.0.0.tgz
+    version: 1.0.0
+  radarr:
+  - apiVersion: v2
+    created: "2025-03-31T02:41:08.546157Z"
+    description: Automated movie downloader
+    digest: 3a385a72a805a53108ca7158a3c96fc5e600968db903330302a27399d8caf6b1
+    maintainers:
+    - name: nbaerts
+    name: radarr
+    sources:
+    - https://github.com/nbaerts/local-cluster
+    type: application
+    urls:
+    - https://nbaerts.github.io/helm-repo/radarr-1.0.0.tgz
+    version: 1.0.0
+  sonarr:
+  - apiVersion: v2
+    created: "2025-03-31T02:41:08.5468226Z"
+    description: Automated TV show downloader
+    digest: c57114674c00000d5cf5eebfdea8271727c3fa0c10c38b55496691555ceeb65c
+    maintainers:
+    - name: nbaerts
+    name: sonarr
+    sources:
+    - https://github.com/nbaerts/local-cluster
+    type: application
+    urls:
+    - https://nbaerts.github.io/helm-repo/sonarr-1.0.0.tgz
+    version: 1.0.0
+generated: "2025-03-31T02:41:08.5409234Z"
