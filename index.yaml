@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   cluster-issuer:
   - apiVersion: v2
-    created: "2025-03-31T04:16:26.5219721Z"
+    created: "2025-04-16T21:07:47.4813204Z"
     description: A cluster-issuer for letsencrypt
     digest: 71ed02bd5f253fbf0457031adb0feb67c839c3687c68d311840fc58458e67751
     maintainers:
@@ -16,7 +16,7 @@ entries:
     version: 1.0.0
   hello-world:
   - apiVersion: v2
-    created: "2025-03-31T04:16:26.5225158Z"
+    created: "2025-04-16T21:07:47.48196Z"
     description: A web application to test a new cluster
     digest: 12a6c2ef343949cd3d8f1548342b25870cbab7024692fa28a581fd3f92913886
     maintainers:
@@ -30,7 +30,7 @@ entries:
     version: 1.0.0
   jellyfin:
   - apiVersion: v2
-    created: "2025-03-31T04:16:26.5231192Z"
+    created: "2025-04-16T21:07:47.4825219Z"
     description: Jellyfin media server
     digest: 542b050f71fe940fd530752ef922bede24af324d5e4c1974d15f2417be3e116b
     maintainers:
@@ -44,7 +44,7 @@ entries:
     version: 1.0.0
   jellyseerr:
   - apiVersion: v2
-    created: "2025-03-31T04:16:26.5236634Z"
+    created: "2025-04-16T21:07:47.4830841Z"
     description: Integrate the *arr stack in Jellyfin
     digest: ab26da27db2e4dc281b6366a1d965dde90407c45ef187a8104827188fd94758e
     maintainers:
@@ -58,7 +58,7 @@ entries:
     version: 1.0.0
   nginx-controler:
   - apiVersion: v2
-    created: "2025-03-31T04:16:26.5243052Z"
+    created: "2025-04-16T21:07:47.483602Z"
     description: A nginx-controler for host network (based on https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.1.3/deploy/static/provider/baremetal/deploy.yaml)
     digest: 410b8314f9d48d9f0d3388aaaa5236f5ae1e772ad572d452ff074013ba00d995
     maintainers:
@@ -72,7 +72,7 @@ entries:
     version: 1.0.0
   prowlarr:
   - apiVersion: v2
-    created: "2025-03-31T04:16:26.5249528Z"
+    created: "2025-04-16T21:07:47.4841428Z"
     description: Indexer for the *arr stack
     digest: 7ab8646e05794853f42506b9c692c9dbd153072fba178fe538c5899ff56bb648
     maintainers:
@@ -86,9 +86,9 @@ entries:
     version: 1.0.0
   qbittorrent:
   - apiVersion: v2
-    created: "2025-03-31T04:16:26.5255978Z"
+    created: "2025-04-16T21:07:47.4847467Z"
     description: Torrent client
-    digest: 02a1c5508025d9c15ce928e3c193c5e4d6fd5ed7e24e9a011d0aaf9cd01c41e1
+    digest: 812b2624d815cfcc47158439f7727c46c9974e195bace8363e0332b3bf5d9335
     maintainers:
     - name: nbaerts
     name: qbittorrent
@@ -100,7 +100,7 @@ entries:
     version: 1.0.0
   radarr:
   - apiVersion: v2
-    created: "2025-03-31T04:16:26.5255978Z"
+    created: "2025-04-16T21:07:47.4852602Z"
     description: Automated movie downloader
     digest: 03a36d421bcb8d62277f2dd0972c2f41249ff80aa644c687b1daa83ef8ac7259
     maintainers:
@@ -114,7 +114,7 @@ entries:
     version: 1.0.0
   sabnzbd:
   - apiVersion: v2
-    created: "2025-03-31T04:16:26.5262457Z"
+    created: "2025-04-16T21:07:47.485776Z"
     description: Usenet download tool
     digest: 56a394de13080552b5933f1cc638502f23d84f1238b95132c0dcb2e5e41ed3c9
     maintainers:
@@ -128,7 +128,7 @@ entries:
     version: 1.0.0
   sonarr:
   - apiVersion: v2
-    created: "2025-03-31T04:16:26.5268828Z"
+    created: "2025-04-16T21:07:47.486289Z"
     description: Automated TV show downloader
     digest: 9dd6d852b50183d12f7562a3cbfe1e17d6837201d08f243bfd3c3e84bc69b5e1
     maintainers:
@@ -140,4 +140,18 @@ entries:
     urls:
     - https://nbaerts.github.io/helm-repo/sonarr-1.0.0.tgz
     version: 1.0.0
-generated: "2025-03-31T04:16:26.5206978Z"
+  vaultwarden:
+  - apiVersion: v2
+    created: "2025-04-16T21:07:47.486289Z"
+    description: Lightweight, open-source password manager server for Bitwarden clients
+    digest: 2086c816359a5f6bcef7d4831002aa5623abab510b2a3bf2ef5c7b1b3d5975cb
+    maintainers:
+    - name: nbaerts
+    name: vaultwarden
+    sources:
+    - https://github.com/nbaerts/local-cluster
+    type: application
+    urls:
+    - https://nbaerts.github.io/helm-repo/vaultwarden-1.0.0.tgz
+    version: 1.0.0
+generated: "2025-04-16T21:07:47.4720033Z"
