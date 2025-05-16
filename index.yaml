@@ -2,9 +2,9 @@ apiVersion: v1
 entries:
   cluster-issuer:
   - apiVersion: v2
-    created: "2025-04-17T20:31:05.0409692Z"
+    created: "2025-05-16T20:33:49.4598178Z"
     description: A cluster-issuer for letsencrypt
-    digest: 48738a34563049c82ef9005e09d198e8c878163ebf99ff8c9e974d02a77805f5
+    digest: 57ab7561c863d48c9d6ead58b779fd45198512ff18ed598c165fe7e5f69eb9e6
     maintainers:
     - name: nbaerts
     name: cluster-issuer
@@ -16,9 +16,9 @@ entries:
     version: 1.0.0
   hello-world:
   - apiVersion: v2
-    created: "2025-04-17T20:31:05.0415433Z"
+    created: "2025-05-16T20:33:49.4610507Z"
     description: A web application to test a new cluster
-    digest: 12a6c2ef343949cd3d8f1548342b25870cbab7024692fa28a581fd3f92913886
+    digest: f03275900c5c7887d363f7c322c6d2537b3cc0a6e96fcf12b21a5bcd9315c2ea
     maintainers:
     - name: nbaerts
     name: hello-world
@@ -30,9 +30,9 @@ entries:
     version: 1.0.0
   home-assistant:
   - apiVersion: v2
-    created: "2025-04-17T20:31:05.042098Z"
+    created: "2025-05-16T20:33:49.4616445Z"
     description: Open source home automation
-    digest: b6032d31b49109d760ad6f12d1f4faa9cfe365e4f3eae80ab79a3472fd904467
+    digest: 8f7874f3e0bbe97c43855dfeaf23642c9086cd8355278d5e7655d5762a56bfb9
     maintainers:
     - name: nbaerts
     name: home-assistant
@@ -44,9 +44,9 @@ entries:
     version: 1.0.0
   jellyfin:
   - apiVersion: v2
-    created: "2025-04-17T20:31:05.042648Z"
+    created: "2025-05-16T20:33:49.4630559Z"
     description: Jellyfin media server
-    digest: 542b050f71fe940fd530752ef922bede24af324d5e4c1974d15f2417be3e116b
+    digest: 2d2f2fae397d461a0b583f35a02966dcc07031280b5c4e403748f5edc17da0d3
     maintainers:
     - name: nbaerts
     name: jellyfin
@@ -58,9 +58,9 @@ entries:
     version: 1.0.0
   jellyseerr:
   - apiVersion: v2
-    created: "2025-04-17T20:31:05.0431981Z"
+    created: "2025-05-16T20:33:49.4636169Z"
     description: Integrate the *arr stack in Jellyfin
-    digest: ab26da27db2e4dc281b6366a1d965dde90407c45ef187a8104827188fd94758e
+    digest: c9cd1d19d2edf4a9c15db4e86404c9e42e30ab48a7d696f4e2a25b0940f335b0
     maintainers:
     - name: nbaerts
     name: jellyseerr
@@ -70,11 +70,39 @@ entries:
     urls:
     - https://nbaerts.github.io/helm-repo/jellyseerr-1.0.0.tgz
     version: 1.0.0
+  mariadb:
+  - apiVersion: v2
+    created: "2025-05-16T20:33:49.4642094Z"
+    description: Database server
+    digest: 1bffa457bc964e11f48c522fa8c332b6671d5e0363e471a637e4b63420e85b38
+    maintainers:
+    - name: nbaerts
+    name: mariadb
+    sources:
+    - https://github.com/nbaerts/local-cluster
+    type: application
+    urls:
+    - https://nbaerts.github.io/helm-repo/mariadb-1.0.0.tgz
+    version: 1.0.0
+  nextcloud:
+  - apiVersion: v2
+    created: "2025-05-16T20:33:49.465Z"
+    description: nextcloud file server
+    digest: 48a3dab21988b5a14e0414c251a971f99f4c44f82f248cdee37a13acca97b33f
+    maintainers:
+    - name: nbaerts
+    name: nextcloud
+    sources:
+    - https://github.com/nbaerts/local-cluster
+    type: application
+    urls:
+    - https://nbaerts.github.io/helm-repo/nextcloud-1.0.0.tgz
+    version: 1.0.0
   nginx-controler:
   - apiVersion: v2
-    created: "2025-04-17T20:31:05.0437493Z"
+    created: "2025-05-16T20:33:49.4655769Z"
     description: A nginx-controler for host network (based on https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.1.3/deploy/static/provider/baremetal/deploy.yaml)
-    digest: 410b8314f9d48d9f0d3388aaaa5236f5ae1e772ad572d452ff074013ba00d995
+    digest: c0a8e153fb6b90dea3492f44e1969b9c354f86753fd52fe634296643311b9320
     maintainers:
     - name: nbaerts
     name: nginx-controler
@@ -86,9 +114,9 @@ entries:
     version: 1.0.0
   prowlarr:
   - apiVersion: v2
-    created: "2025-04-17T20:31:05.0443606Z"
+    created: "2025-05-16T20:33:49.4662085Z"
     description: Indexer for the *arr stack
-    digest: 7ab8646e05794853f42506b9c692c9dbd153072fba178fe538c5899ff56bb648
+    digest: 6ba926dd1cf0bda259264abb86e25beb507047b9086e37eed6bde906ee31cb7c
     maintainers:
     - name: nbaerts
     name: prowlarr
@@ -100,9 +128,9 @@ entries:
     version: 1.0.0
   qbittorrent:
   - apiVersion: v2
-    created: "2025-04-17T20:31:05.0449658Z"
+    created: "2025-05-16T20:33:49.4668076Z"
     description: Torrent client
-    digest: 812b2624d815cfcc47158439f7727c46c9974e195bace8363e0332b3bf5d9335
+    digest: bbe4c96e5a89656601ab8388a3c0c3de8ee5ec6fa38a31ea47221c73782a6c0f
     maintainers:
     - name: nbaerts
     name: qbittorrent
@@ -114,9 +142,9 @@ entries:
     version: 1.0.0
   radarr:
   - apiVersion: v2
-    created: "2025-04-17T20:31:05.0455689Z"
+    created: "2025-05-16T20:33:49.4674261Z"
     description: Automated movie downloader
-    digest: 03a36d421bcb8d62277f2dd0972c2f41249ff80aa644c687b1daa83ef8ac7259
+    digest: dbd10469bf90c6528c4a3ce0f0f459cebe39007ba8c1106b8e97da8316b0630f
     maintainers:
     - name: nbaerts
     name: radarr
@@ -126,11 +154,25 @@ entries:
     urls:
     - https://nbaerts.github.io/helm-repo/radarr-1.0.0.tgz
     version: 1.0.0
+  redis:
+  - apiVersion: v2
+    created: "2025-05-16T20:33:49.4680708Z"
+    description: Remote Dictionary (caching) Server
+    digest: 4b7ac12292116faee7c0c81ca696d1ed9f50484507e06f2b6e2b6972f2021588
+    maintainers:
+    - name: nbaerts
+    name: redis
+    sources:
+    - https://github.com/nbaerts/local-cluster
+    type: application
+    urls:
+    - https://nbaerts.github.io/helm-repo/redis-1.0.0.tgz
+    version: 1.0.0
   sabnzbd:
   - apiVersion: v2
-    created: "2025-04-17T20:31:05.046167Z"
+    created: "2025-05-16T20:33:49.4687093Z"
     description: Usenet download tool
-    digest: 56a394de13080552b5933f1cc638502f23d84f1238b95132c0dcb2e5e41ed3c9
+    digest: 8d635e1c029b3c2274d4cfc1438b7da5c234ea8b2e818a30968bb936dc6635b6
     maintainers:
     - name: nbaerts
     name: sabnzbd
@@ -142,9 +184,9 @@ entries:
     version: 1.0.0
   sonarr:
   - apiVersion: v2
-    created: "2025-04-17T20:31:05.0467738Z"
+    created: "2025-05-16T20:33:49.4698971Z"
     description: Automated TV show downloader
-    digest: 9dd6d852b50183d12f7562a3cbfe1e17d6837201d08f243bfd3c3e84bc69b5e1
+    digest: e2f3129c47ba843d16be0cece6dc50249db59a1e07427211ec96d0197d287c10
     maintainers:
     - name: nbaerts
     name: sonarr
@@ -156,9 +198,9 @@ entries:
     version: 1.0.0
   vaultwarden:
   - apiVersion: v2
-    created: "2025-04-17T20:31:05.0483143Z"
+    created: "2025-05-16T20:33:49.4711024Z"
     description: Lightweight, open-source password manager server for Bitwarden clients
-    digest: e35fe4a5c3a02139444ea31983b7e37b3c391dc770b1afd8eadcd3fd448713e2
+    digest: e43ad76fad2e7f288ee21ba991556289c7972c101201458d3eb53a30ad36dc8b
     maintainers:
     - name: nbaerts
     name: vaultwarden
@@ -168,4 +210,4 @@ entries:
     urls:
     - https://nbaerts.github.io/helm-repo/vaultwarden-1.0.0.tgz
     version: 1.0.0
-generated: "2025-04-17T20:31:05.0399068Z"
+generated: "2025-05-16T20:33:49.4585956Z"
