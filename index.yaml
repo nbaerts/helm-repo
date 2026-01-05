@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   hello-world:
   - apiVersion: v2
-    created: "2026-01-02T20:39:14.5050617Z"
+    created: "2026-01-05T21:31:59.9826023Z"
     description: A web application to test a new cluster
     digest: 80bba34f56e88bca56dcfaff7dcd8765e598716e403e1f6b9aafe9492dea83c9
     maintainers:
@@ -16,7 +16,7 @@ entries:
     version: 1.0.0
   home-assistant:
   - apiVersion: v2
-    created: "2026-01-02T20:39:14.5061211Z"
+    created: "2026-01-05T21:31:59.9831124Z"
     description: Open source home automation
     digest: 269ae7f945ece9a139cc22cbcce6fede2e1873dd0b1de5635470a6b331a37071
     maintainers:
@@ -30,7 +30,7 @@ entries:
     version: 1.0.0
   jellyfin:
   - apiVersion: v2
-    created: "2026-01-02T20:39:14.5072159Z"
+    created: "2026-01-05T21:31:59.9843546Z"
     description: Jellyfin media server
     digest: 080d8afe8a55aa939bc3422771ef0c42e72e0459f768cf464bfbaa7bc29cbd42
     maintainers:
@@ -44,7 +44,7 @@ entries:
     version: 1.0.0
   jellyseerr:
   - apiVersion: v2
-    created: "2026-01-02T20:39:14.5077406Z"
+    created: "2026-01-05T21:31:59.9849653Z"
     description: Integrate the *arr stack in Jellyfin
     digest: 64dc8de9053825aee2be84e9563440030b07a88910a9c2e292d8535219428b8e
     maintainers:
@@ -58,7 +58,7 @@ entries:
     version: 1.0.0
   nginx-controler:
   - apiVersion: v2
-    created: "2026-01-02T20:39:14.508283Z"
+    created: "2026-01-05T21:31:59.9855438Z"
     description: A nginx-controler for host network (based on https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.1.3/deploy/static/provider/baremetal/deploy.yaml)
     digest: cfe54375b6fdf047b3650cc6ace46125cc90933b6d3726c460ae604af5b953b8
     maintainers:
@@ -72,7 +72,7 @@ entries:
     version: 1.0.0
   prowlarr:
   - apiVersion: v2
-    created: "2026-01-02T20:39:14.5088984Z"
+    created: "2026-01-05T21:31:59.9866497Z"
     description: Indexer for the *arr stack
     digest: 32fb32b72ce69580116625c19cdb69106862c3d17129d5536d0b5304a3869879
     maintainers:
@@ -86,7 +86,7 @@ entries:
     version: 1.0.0
   qbittorrent:
   - apiVersion: v2
-    created: "2026-01-02T20:39:14.509954Z"
+    created: "2026-01-05T21:31:59.9871601Z"
     description: Torrent client
     digest: 8651159ef18d72a0c80dcb400111e17afe2ca2ff721f19943e34f70ea49f1dda
     maintainers:
@@ -100,7 +100,7 @@ entries:
     version: 1.0.0
   radarr:
   - apiVersion: v2
-    created: "2026-01-02T20:39:14.5104738Z"
+    created: "2026-01-05T21:31:59.9876814Z"
     description: Automated movie downloader
     digest: 34fa9b33505a3b1ab9345c41d55e903abc073ea107f42b05dd03c18ff962ab91
     maintainers:
@@ -114,7 +114,7 @@ entries:
     version: 1.0.0
   sabnzbd:
   - apiVersion: v2
-    created: "2026-01-02T20:39:14.5109927Z"
+    created: "2026-01-05T21:31:59.9887206Z"
     description: Usenet download tool
     digest: 1bf89180e21818af601dfb840bb7ce3efafcda2d71a55d1eb10893b819a9207d
     maintainers:
@@ -128,7 +128,7 @@ entries:
     version: 1.0.0
   sonarr:
   - apiVersion: v2
-    created: "2026-01-02T20:39:14.5121307Z"
+    created: "2026-01-05T21:31:59.9887206Z"
     description: Automated TV show downloader
     digest: 48bcc8313d9c96ea4c6f86a4c1ae08c7d012d278d52926fe1c37a2aa518ca4e5
     maintainers:
@@ -140,23 +140,9 @@ entries:
     urls:
     - https://nbaerts.github.io/helm-repo/sonarr-1.0.0.tgz
     version: 1.0.0
-  sunshine:
-  - apiVersion: v2
-    created: "2026-01-02T20:39:14.5126636Z"
-    description: Self-hosted game stream host for Moonlight
-    digest: 5fe077549a54d5ec6a2ad141b12b33751a2cbc9a5d2db6d509f601ad9c42ad2c
-    maintainers:
-    - name: nbaerts
-    name: sunshine
-    sources:
-    - https://github.com/nbaerts/local-cluster
-    type: application
-    urls:
-    - https://nbaerts.github.io/helm-repo/sunshine-1.0.0.tgz
-    version: 1.0.0
   vaultwarden:
   - apiVersion: v2
-    created: "2026-01-02T20:39:14.5149174Z"
+    created: "2026-01-05T21:31:59.9902744Z"
     description: Lightweight, open-source password manager server for Bitwarden clients
     digest: 3f9276402865dddd21607a7991dec5836fe567d2ffa3414ccd7cb7f342b7f7c8
     maintainers:
@@ -168,4 +154,18 @@ entries:
     urls:
     - https://nbaerts.github.io/helm-repo/vaultwarden-1.0.0.tgz
     version: 1.0.0
-generated: "2026-01-02T20:39:14.5044086Z"
+  wolf:
+  - apiVersion: v2
+    created: "2026-01-05T21:31:59.9902744Z"
+    description: Open source streaming server for Moonlight
+    digest: 2134bca4be72e473b6039f3e83bfa3fb8bb73487d40b710c85ccd71b30ef411e
+    maintainers:
+    - name: nbaerts
+    name: wolf
+    sources:
+    - https://github.com/nbaerts/local-cluster
+    type: application
+    urls:
+    - https://nbaerts.github.io/helm-repo/wolf-1.0.0.tgz
+    version: 1.0.0
+generated: "2026-01-05T21:31:59.9728851Z"
