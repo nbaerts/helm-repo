@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   hello-world:
   - apiVersion: v2
-    created: "2026-04-06T02:17:13.8226516Z"
+    created: "2026-04-13T18:26:46.0650553Z"
     description: A web application to test a new cluster
     digest: 80bba34f56e88bca56dcfaff7dcd8765e598716e403e1f6b9aafe9492dea83c9
     maintainers:
@@ -16,7 +16,7 @@ entries:
     version: 1.0.0
   home-assistant:
   - apiVersion: v2
-    created: "2026-04-06T02:17:13.8236346Z"
+    created: "2026-04-13T18:26:46.0684169Z"
     description: Open source home automation
     digest: 269ae7f945ece9a139cc22cbcce6fede2e1873dd0b1de5635470a6b331a37071
     maintainers:
@@ -30,7 +30,7 @@ entries:
     version: 1.0.0
   jellyfin:
   - apiVersion: v2
-    created: "2026-04-06T02:17:13.8241604Z"
+    created: "2026-04-13T18:26:46.0709906Z"
     description: Jellyfin media server
     digest: 080d8afe8a55aa939bc3422771ef0c42e72e0459f768cf464bfbaa7bc29cbd42
     maintainers:
@@ -44,7 +44,7 @@ entries:
     version: 1.0.0
   jellyseerr:
   - apiVersion: v2
-    created: "2026-04-06T02:17:13.8248796Z"
+    created: "2026-04-13T18:26:46.073292Z"
     description: Integrate the *arr stack in Jellyfin
     digest: 64dc8de9053825aee2be84e9563440030b07a88910a9c2e292d8535219428b8e
     maintainers:
@@ -58,7 +58,7 @@ entries:
     version: 1.0.0
   lidarr:
   - apiVersion: v2
-    created: "2026-04-06T02:17:13.8254006Z"
+    created: "2026-04-13T18:26:46.0775431Z"
     description: Automated music downloader
     digest: 0c50004a5987e5c2926a987ab9d27e850679296e2cc098d995fd57410ea4fe1e
     maintainers:
@@ -72,9 +72,9 @@ entries:
     version: 1.0.0
   lidarr-ytdl:
   - apiVersion: v2
-    created: "2026-04-06T02:17:13.8254006Z"
+    created: "2026-04-13T18:26:46.0805202Z"
     description: Bridge the gap between Lidarr and YouTube
-    digest: ec4d59fa2b99a2206525607bdc36545764475765bb128f8e75599aec09d85b53
+    digest: eb65fe7966652b4b0475f07ea1cd4b99458d6dc4bbc3a213312a8b6f29f0decf
     maintainers:
     - name: nbaerts
     name: lidarr-ytdl
@@ -86,7 +86,7 @@ entries:
     version: 1.0.0
   navidrome:
   - apiVersion: v2
-    created: "2026-04-06T02:17:13.8259902Z"
+    created: "2026-04-13T18:26:46.0837423Z"
     description: Personal music streaming service
     digest: b6913597dfb73d23a5d0cda98ee58b7ab9a22bdf38925f6764655b9c95b34ab1
     maintainers:
@@ -100,7 +100,7 @@ entries:
     version: 1.0.0
   nginx-controler:
   - apiVersion: v2
-    created: "2026-04-06T02:17:13.8265058Z"
+    created: "2026-04-13T18:26:46.0868555Z"
     description: A nginx-controler for host network (based on https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.1.3/deploy/static/provider/baremetal/deploy.yaml)
     digest: cfe54375b6fdf047b3650cc6ace46125cc90933b6d3726c460ae604af5b953b8
     maintainers:
@@ -114,7 +114,7 @@ entries:
     version: 1.0.0
   prowlarr:
   - apiVersion: v2
-    created: "2026-04-06T02:17:13.827018Z"
+    created: "2026-04-13T18:26:46.0895635Z"
     description: Indexer for the *arr stack
     digest: 32fb32b72ce69580116625c19cdb69106862c3d17129d5536d0b5304a3869879
     maintainers:
@@ -128,7 +128,7 @@ entries:
     version: 1.0.0
   qbittorrent:
   - apiVersion: v2
-    created: "2026-04-06T02:17:13.8275277Z"
+    created: "2026-04-13T18:26:46.0916572Z"
     description: Torrent client
     digest: 8651159ef18d72a0c80dcb400111e17afe2ca2ff721f19943e34f70ea49f1dda
     maintainers:
@@ -142,7 +142,7 @@ entries:
     version: 1.0.0
   radarr:
   - apiVersion: v2
-    created: "2026-04-06T02:17:13.8280365Z"
+    created: "2026-04-13T18:26:46.0926754Z"
     description: Automated movie downloader
     digest: 34fa9b33505a3b1ab9345c41d55e903abc073ea107f42b05dd03c18ff962ab91
     maintainers:
@@ -156,7 +156,7 @@ entries:
     version: 1.0.0
   sabnzbd:
   - apiVersion: v2
-    created: "2026-04-06T02:17:13.8285619Z"
+    created: "2026-04-13T18:26:46.0947296Z"
     description: Usenet download tool
     digest: 1bf89180e21818af601dfb840bb7ce3efafcda2d71a55d1eb10893b819a9207d
     maintainers:
@@ -170,7 +170,7 @@ entries:
     version: 1.0.0
   samba:
   - apiVersion: v2
-    created: "2026-04-06T02:17:13.8285619Z"
+    created: "2026-04-13T18:26:46.098337Z"
     description: SMB networking protocol implementation
     digest: 7a12259bf5336b159ccac658bdad9cdfc07b0a4b5161e30fb11257a7cbc60165
     maintainers:
@@ -184,7 +184,7 @@ entries:
     version: 1.0.0
   sonarr:
   - apiVersion: v2
-    created: "2026-04-06T02:17:13.8292802Z"
+    created: "2026-04-13T18:26:46.098337Z"
     description: Automated TV show downloader
     digest: 48bcc8313d9c96ea4c6f86a4c1ae08c7d012d278d52926fe1c37a2aa518ca4e5
     maintainers:
@@ -196,9 +196,23 @@ entries:
     urls:
     - https://nbaerts.github.io/helm-repo/sonarr-1.0.0.tgz
     version: 1.0.0
+  uptime-kuma:
+  - apiVersion: v2
+    created: "2026-04-13T18:26:46.098337Z"
+    description: Self-hosted monitoring tool
+    digest: d2aec4b08a2de2b929a8b0b87718dc01ccea3c2e5dc13b40c76e780a04ba7054
+    maintainers:
+    - name: nbaerts
+    name: uptime-kuma
+    sources:
+    - https://github.com/nbaerts/local-cluster
+    type: application
+    urls:
+    - https://nbaerts.github.io/helm-repo/uptime-kuma-1.0.0.tgz
+    version: 1.0.0
   vaultwarden:
   - apiVersion: v2
-    created: "2026-04-06T02:17:13.8304619Z"
+    created: "2026-04-13T18:26:46.1076486Z"
     description: Lightweight, open-source password manager server for Bitwarden clients
     digest: 5c11cab6e57ad4063f99d93ea4805080f2dcf42adeeae20d0a6258981014ca95
     maintainers:
@@ -210,4 +224,4 @@ entries:
     urls:
     - https://nbaerts.github.io/helm-repo/vaultwarden-1.0.0.tgz
     version: 1.0.0
-generated: "2026-04-06T02:17:13.8213791Z"
+generated: "2026-04-13T18:26:46.0601656Z"
