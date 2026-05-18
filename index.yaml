@@ -1,10 +1,35 @@
 apiVersion: v1
 entries:
+  adguard:
+  - apiVersion: v2
+    created: "2026-05-18T18:28:09.2892908Z"
+    description: AdGuard Home - network-wide ad/tracker blocking DNS server
+    digest: bfc0480a9212e7ab8fdc5f71c43191ae85964ab85df4a1b30752d991e72e2a83
+    name: adguard
+    urls:
+    - https://nbaerts.github.io/helm-repo/adguard-1.0.0.tgz
+    version: 1.0.0
+  dashboard:
+  - apiVersion: v2
+    created: "2026-05-18T18:28:09.2899482Z"
+    description: Headlamp Kubernetes dashboard with RBAC and Gateway API HTTPRoute
+      through WAF
+    digest: 44d2ce9c920ba2b81dcbf7869da03033351ae14c28606cf5c75633a46dd18d6a
+    maintainers:
+    - name: nbaerts
+    name: dashboard
+    sources:
+    - https://github.com/nbaerts/local-cluster
+    - https://headlamp.dev/
+    type: application
+    urls:
+    - https://nbaerts.github.io/helm-repo/dashboard-1.0.0.tgz
+    version: 1.0.0
   hello-world:
   - apiVersion: v2
-    created: "2026-04-13T22:58:43.5741113Z"
+    created: "2026-05-18T18:28:09.2911194Z"
     description: A web application to test a new cluster
-    digest: be72fc37c8ffad40af44a64d6b1096b90e119abcee0abae16a7e7e2aff5d990a
+    digest: ba6264f3c5cc30dbce4ee6a555cfa66154590149fa599909979ad009566e97e3
     maintainers:
     - name: nbaerts
     name: hello-world
@@ -16,9 +41,9 @@ entries:
     version: 1.0.0
   home-assistant:
   - apiVersion: v2
-    created: "2026-04-13T22:58:43.5759098Z"
+    created: "2026-05-18T18:28:09.2923556Z"
     description: Open source home automation
-    digest: dcc405a8676a10c520bb899226e24700c6a05b5a0a14a09e183b363efca88907
+    digest: 4f350da106fd95b8e2c026decc15659a60e3117faa2c8ca44ec2b874abbd3bad
     maintainers:
     - name: nbaerts
     name: home-assistant
@@ -30,9 +55,9 @@ entries:
     version: 1.0.0
   jellyfin:
   - apiVersion: v2
-    created: "2026-04-13T22:58:43.5766288Z"
+    created: "2026-05-18T18:28:09.2934909Z"
     description: Jellyfin media server
-    digest: fe460286f01daaac652ed673fa7b271a94b605b9357c0dfc44181abd6b7a15c1
+    digest: 58ff434c4874698bc3ca3dc558316e9b049789e31fdece4654a83d4688bdfc6b
     maintainers:
     - name: nbaerts
     name: jellyfin
@@ -44,9 +69,9 @@ entries:
     version: 1.0.0
   jellyseerr:
   - apiVersion: v2
-    created: "2026-04-13T22:58:43.5771963Z"
+    created: "2026-05-18T18:28:09.29419Z"
     description: Integrate the *arr stack in Jellyfin
-    digest: 7468b341a7c68d62b714c9a7344a9f2892cbf02b4a915f0fb85365bdfbe42310
+    digest: ea810a073d750cc4db62bd636e13eb62f114330a8aa80f42e2808da1e9a685af
     maintainers:
     - name: nbaerts
     name: jellyseerr
@@ -58,9 +83,9 @@ entries:
     version: 1.0.0
   lidarr:
   - apiVersion: v2
-    created: "2026-04-13T22:58:43.5771963Z"
+    created: "2026-05-18T18:28:09.2947544Z"
     description: Automated music downloader
-    digest: b3ef36feb908eb28c09d0a9e9333027fb8322fcdb8622af16831d16829374d56
+    digest: 32fd1ba95a08c59788bd6f96e1c48059027490e0ba106b261df918251692195f
     maintainers:
     - name: nbaerts
     name: lidarr
@@ -72,9 +97,9 @@ entries:
     version: 1.0.0
   lidarr-ytdl:
   - apiVersion: v2
-    created: "2026-04-13T22:58:43.5778087Z"
+    created: "2026-05-18T18:28:09.2953176Z"
     description: Bridge the gap between Lidarr and YouTube
-    digest: 03944bcd1d793d9f1594c4ada344ab91c60298249da2eda4aa5525ec4b575924
+    digest: d80435cc6c32b735b16ffeb4fce34ad0b91216adaec858a071ee867d2f8445b1
     maintainers:
     - name: nbaerts
     name: lidarr-ytdl
@@ -86,9 +111,9 @@ entries:
     version: 1.0.0
   navidrome:
   - apiVersion: v2
-    created: "2026-04-13T22:58:43.5784947Z"
+    created: "2026-05-18T18:28:09.2958791Z"
     description: Personal music streaming service
-    digest: 06abadc256ee6c5c914443faef905f22254c8979a28b1704cf9023a44aa517bb
+    digest: 472a4bdb19b5197e5967cd0c32bcb98aa3fdc8904c3c9d8fef96a61db4ad4493
     maintainers:
     - name: nbaerts
     name: navidrome
@@ -98,25 +123,28 @@ entries:
     urls:
     - https://nbaerts.github.io/helm-repo/navidrome-1.0.0.tgz
     version: 1.0.0
-  nginx-controler:
+  nginx-gateway:
   - apiVersion: v2
-    created: "2026-04-13T22:58:43.5784947Z"
-    description: A nginx-controler for host network (based on https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.1.3/deploy/static/provider/baremetal/deploy.yaml)
-    digest: e81ecf73203c7d25e10e08a4e63d2a95a3a3251cad2d064b91900996b5d7cb68
+    created: "2026-05-18T18:28:09.2965724Z"
+    description: NGINX Gateway Fabric controller for bare-metal host-network clusters,
+      using the Kubernetes Gateway API (gateway.networking.k8s.io)
+    digest: ebda078efb2afc539e09f814ddcd72937c599ca13292acf83559945dcad6ba41
     maintainers:
     - name: nbaerts
-    name: nginx-controler
+    name: nginx-gateway
     sources:
     - https://github.com/nbaerts/local-cluster
+    - https://docs.nginx.com/nginx-gateway-fabric/
+    - https://gateway-api.sigs.k8s.io/
     type: application
     urls:
-    - https://nbaerts.github.io/helm-repo/nginx-controler-1.0.0.tgz
+    - https://nbaerts.github.io/helm-repo/nginx-gateway-1.0.0.tgz
     version: 1.0.0
   prowlarr:
   - apiVersion: v2
-    created: "2026-04-13T22:58:43.5791034Z"
+    created: "2026-05-18T18:28:09.2965724Z"
     description: Indexer for the *arr stack
-    digest: 43aec94e67682d9496c5bcde560288650e9a542452e9b0ffc63595ca08613f83
+    digest: 67f199c544459afa229354a95fdfc02885732ae7fec85550c6ae74c01e6d0ef8
     maintainers:
     - name: nbaerts
     name: prowlarr
@@ -128,9 +156,9 @@ entries:
     version: 1.0.0
   qbittorrent:
   - apiVersion: v2
-    created: "2026-04-13T22:58:43.5796806Z"
+    created: "2026-05-18T18:28:09.2971426Z"
     description: Torrent client
-    digest: caad839c3fe471a8a5a30b95bb3dd5025d52fbeb14465e16a9169b0ff7616f29
+    digest: 697ce85e2390caa470aaa06d5c012fa21fe1ded83b964ad70c558828b251a66f
     maintainers:
     - name: nbaerts
     name: qbittorrent
@@ -142,9 +170,9 @@ entries:
     version: 1.0.0
   radarr:
   - apiVersion: v2
-    created: "2026-04-13T22:58:43.5796806Z"
+    created: "2026-05-18T18:28:09.2977287Z"
     description: Automated movie downloader
-    digest: 9b201b87a2d42f1bd667fdf8c94793cf95428fc5d8011b880ddff43f29771d33
+    digest: 6199e87f6d9003e0f8ea1c5d6043d06b774ec77eaafe2c704cdd442f8858b524
     maintainers:
     - name: nbaerts
     name: radarr
@@ -156,9 +184,9 @@ entries:
     version: 1.0.0
   sabnzbd:
   - apiVersion: v2
-    created: "2026-04-13T22:58:43.5802406Z"
+    created: "2026-05-18T18:28:09.2982985Z"
     description: Usenet download tool
-    digest: 3afeee98ad561dfa2cead2ff673aaffd63fdbe3bca98a20fd402f92123a7a294
+    digest: 8dfc1aafe6eba4af8faf72ecb730b85c0df7800a963fffe4d315862205df26fd
     maintainers:
     - name: nbaerts
     name: sabnzbd
@@ -170,9 +198,9 @@ entries:
     version: 1.0.0
   samba:
   - apiVersion: v2
-    created: "2026-04-13T22:58:43.5808435Z"
+    created: "2026-05-18T18:28:09.2989366Z"
     description: SMB networking protocol implementation
-    digest: 14188cdd31a2eeb1fe109f7a7e41d5c9c5bca47154742815ee8021415239e21c
+    digest: 12a40f1ba146e00af89bb15b11dcfd7ba8529c22e460106f4b537d1f80cd3658
     maintainers:
     - name: nbaerts
     name: samba
@@ -184,9 +212,9 @@ entries:
     version: 1.0.0
   sonarr:
   - apiVersion: v2
-    created: "2026-04-13T22:58:43.5808435Z"
+    created: "2026-05-18T18:28:09.2996393Z"
     description: Automated TV show downloader
-    digest: 64c181008b8724f264827edb137418a2c79a0cc64b48ca34d10d84ffd5a9cb84
+    digest: e5ecdb176ef39af3f1730dd5d7d2d9e560f33eaab6f93e49157b2e04c6ff8a59
     maintainers:
     - name: nbaerts
     name: sonarr
@@ -198,9 +226,9 @@ entries:
     version: 1.0.0
   status:
   - apiVersion: v2
-    created: "2026-04-13T22:58:43.5814024Z"
+    created: "2026-05-18T18:28:09.3002741Z"
     description: Self-hosted monitoring tool (uptime-kuma)
-    digest: f0f9d2061b4f50a89ef1fea14b50a52beaab23c468f7ad9351aa0b8ea012ea43
+    digest: 6444e9ee711481913f5df196bbe49b7c27dd7216745216e790b12dbe5642dfec
     maintainers:
     - name: nbaerts
     name: status
@@ -210,11 +238,20 @@ entries:
     urls:
     - https://nbaerts.github.io/helm-repo/status-1.0.0.tgz
     version: 1.0.0
+  timelimit:
+  - apiVersion: v2
+    created: "2026-05-18T18:28:09.3008568Z"
+    description: TimeLimit - parental control server for screen time management
+    digest: ae54fd59ce942a042a38472b6dc4f1b498ca06387a41565b5c8f8cedb2a2e314
+    name: timelimit
+    urls:
+    - https://nbaerts.github.io/helm-repo/timelimit-1.0.0.tgz
+    version: 1.0.0
   vaultwarden:
   - apiVersion: v2
-    created: "2026-04-13T22:58:43.5820107Z"
+    created: "2026-05-18T18:28:09.3022296Z"
     description: Lightweight, open-source password manager server for Bitwarden clients
-    digest: 26f07c95069992766b3be7e3c4b7163742feb44e344b57e46b250314be095030
+    digest: 5b19ee04c9f8aa8edccbe7aedd1378a96155e51f6ac0de9dea1827c1dc4a5d4d
     maintainers:
     - name: nbaerts
     name: vaultwarden
@@ -224,4 +261,20 @@ entries:
     urls:
     - https://nbaerts.github.io/helm-repo/vaultwarden-1.0.0.tgz
     version: 1.0.0
-generated: "2026-04-13T22:58:43.5723844Z"
+  waf:
+  - apiVersion: v2
+    created: "2026-05-18T18:28:09.3064262Z"
+    description: OWASP ModSecurity CRS WAF proxy — sits between the Gateway and all
+      app services, inspecting every request before forwarding
+    digest: 356e7bbb88f11b448c438af40e95499bfa00da8880463650a6582ad88b53db61
+    maintainers:
+    - name: nbaerts
+    name: waf
+    sources:
+    - https://github.com/nbaerts/local-cluster
+    - https://github.com/coreruleset/modsecurity-crs-docker
+    type: application
+    urls:
+    - https://nbaerts.github.io/helm-repo/waf-1.0.0.tgz
+    version: 1.0.0
+generated: "2026-05-18T18:28:09.2872512Z"
